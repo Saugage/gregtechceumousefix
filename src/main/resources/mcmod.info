@@ -1,0 +1,12 @@
+[{
+    "modid": "${modid}",
+    "name": "${modname}",
+    "description": "bugfiix",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "logoFile": "",
+    "url": "",
+    "authorList": ["gangmembersigma"],
+    "credits": "",
+    "dependencies": ["gregtech", "mousetweaks"]
+}]

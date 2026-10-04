@@ -1,0 +1,12 @@
+{
+  "package": "com.gtmousefix.mixin",
+  "refmap": "mixins.gtmousefix.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinModularUIContainer"
+  ],
+  "client": [],
+  "server": []
+}
