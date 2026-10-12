@@ -12,7 +12,7 @@ import org.apache.logging.log4j.Logger;
         version = Tags.VERSION,
         name = Tags.MODNAME,
         acceptedMinecraftVersions = "[1.12.2]",
-        dependencies = "required-after:gregtech;required-after:mousetweaks")
+        dependencies = "required-after:gregtech")
 public class GTMouseFix {
 
     public static final Logger LOGGER = LogManager.getLogger(Tags.MODID);

@@ -8,5 +8,5 @@
     "url": "",
     "authorList": ["gangmembersigma"],
     "credits": "",
-    "dependencies": ["gregtech", "mousetweaks"]
+    "dependencies": ["gregtech"]
 }]
