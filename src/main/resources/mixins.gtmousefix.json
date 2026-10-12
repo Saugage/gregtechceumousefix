@@ -5,7 +5,12 @@
   "minVersion": "0.8",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "MixinModularUIContainer"
+    "MixinModularUIContainer",
+    "MixinModularUIContainerQuantumSync",
+    "MixinQuantumChestInputHandler",
+    "MixinQuantumChestOutput",
+    "MixinQuantumTankUpdate",
+    "MixinWidgetSlotItemHandler"
   ],
   "client": [],
   "server": []
