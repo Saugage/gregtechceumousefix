@@ -12,9 +12,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.SlotItemHandler;
 
-/**
- * Helper for resending Quantum Chest / Tank slots to a client, bypassing the container's change detection.
- */
+// Helper for resending Quantum Chest / Tank slots to a client.
 public final class QuantumSync {
 
     private QuantumSync() {}
