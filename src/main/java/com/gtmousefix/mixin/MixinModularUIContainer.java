@@ -10,7 +10,8 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 @Mixin(ModularUIContainer.class)
 public class MixinModularUIContainer {
 
-    // PerTickIntCounter always returns 0
+    // Redirects the PerTickIntCounter.get call in transferStackInSlot to return 0, so the per-tick transfer cap is
+    // never reached. The counter itself is unchanged.
     @Redirect(
             method = "transferStackInSlot",
             at = @At(

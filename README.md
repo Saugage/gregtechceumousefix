@@ -1,7 +1,7 @@
 # Gregtech CEu Mouse Fix
 Fixes the bug when putting items quickly into inventories, some items are put into GT inventories client-side, but are not updated server-side. evil desync...
 
-This is caused by a limit on the amount of items send per tick, which is set to the stack's max size. This is fixed by having PerTickIntCounter always return 0.
+This is caused by a limit on the amount of items send per tick, which is set to the stack's max size. This is fixed by redirecting the `PerTickIntCounter.get` call in `transferStackInSlot` to return 0, so the cap is never reached.
 
 ### Quantum chest & tank ghost items fix
 When moving items quickly into or out of quantum chests, ghost items would appear on the client. This is fixed by making the input not actually hold anything.
