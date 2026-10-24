@@ -8,6 +8,10 @@ When moving items quickly into or out of quantum chests, ghost items would appea
 
 Ghost items would also appear when quickly taking item out of quantum chests and quantum tanks. If done too quickly, an `update()` would occur on the server-side, but would never make it to the client. This is fixed by sending the new contents directly to the client.
 
+## Before & After Demo
+
+[![Before & After Demo](https://img.youtube.com/vi/yK4sX8z09Ck/0.jpg)](https://www.youtube.com/watch?v=yK4sX8z09Ck)
+
 ## Dependencies:
 - [Gregtech CEu](https://github.com/GregTechCEu/GregTech), tested for version GregTech CEu (1.12.2): 2.8.10-beta
 
